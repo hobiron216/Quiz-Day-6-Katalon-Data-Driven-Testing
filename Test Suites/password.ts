@@ -16,7 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <iterationNameVariable>
-         <defaultValue>'secret_sauce'</defaultValue>
+         <defaultValue>''</defaultValue>
          <description></description>
          <id>a7fa7387-da10-4668-9e9f-8be3d7656104</id>
          <masked>false</masked>
