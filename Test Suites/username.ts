@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>username</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>62cbe767-b4a2-4c62-a0ed-32037493be7a</testSuiteGuid>
+   <testCaseLink>
+      <guid>0fce6a48-620b-45d4-9298-cd735f0f1b75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'standard_user\r\n'</defaultValue>
+         <description></description>
+         <id>0ff965d3-c513-4189-9c89-08d0a1299cbc</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC01 - Success Login with accepted username - Positive</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fbdcfd35-7b6c-4602-a889-4f707c81ce17</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/username</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fbdcfd35-7b6c-4602-a889-4f707c81ce17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>0ff965d3-c513-4189-9c89-08d0a1299cbc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
