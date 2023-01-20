@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - Success Login with accepted username - Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97e5ad86-049c-4bb2-b5bb-e353a36c5104</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ff965d3-c513-4189-9c89-08d0a1299cbc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user\r\n'</defaultValue>
+      <description></description>
+      <id>0ff965d3-c513-4189-9c89-08d0a1299cbc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

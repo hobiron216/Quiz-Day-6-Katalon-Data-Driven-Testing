@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06 - Login with not input username - Negative</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e0302ea5-4b8d-409d-af2e-a5c4e5d295a1</testCaseGuid>
-</TestCaseEntity>

@@ -12,28 +12,32 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>62cbe767-b4a2-4c62-a0ed-32037493be7a</testSuiteGuid>
    <testCaseLink>
-      <guid>22e16a13-25fb-470d-b41f-25ca77d9ca1c</guid>
+      <guid>0fce6a48-620b-45d4-9298-cd735f0f1b75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01 - Login with locked_out_user - Positive</testCaseId>
+      <iterationNameVariable>
+         <defaultValue>'standard_user\r\n'</defaultValue>
+         <description></description>
+         <id>0ff965d3-c513-4189-9c89-08d0a1299cbc</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC01 - Success Login with accepted username - Positive</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>bad84847-8d98-4973-9b41-2b88a4bfea41</id>
+         <id>fbdcfd35-7b6c-4602-a889-4f707c81ce17</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
          <testDataId>Data Files/username</testDataId>
       </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>e01ade0a-e02b-4dba-9547-5156a26cc4cf</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/password</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fbdcfd35-7b6c-4602-a889-4f707c81ce17</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>0ff965d3-c513-4189-9c89-08d0a1299cbc</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

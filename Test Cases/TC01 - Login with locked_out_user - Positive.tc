@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01 - Login with locked_out_user - Positive</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>97e5ad86-049c-4bb2-b5bb-e353a36c5104</testCaseGuid>
-</TestCaseEntity>
